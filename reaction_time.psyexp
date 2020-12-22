@@ -105,7 +105,7 @@
       </TextComponent>
       <KeyboardComponent name="ready">
         <Param name="allowedKeys" val="" valType="code" updates="constant"/>
-        <Param name="correctAns" val="thisTrial.corrAns" valType="str" updates="constant"/>
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
         <Param name="disabled" val="False" valType="bool" updates="None"/>
         <Param name="discard previous" val="True" valType="bool" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
@@ -117,7 +117,7 @@
         <Param name="startVal" val="0" valType="code" updates="None"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="store" val="last key" valType="str" updates="constant"/>
+        <Param name="store" val="nothing" valType="str" updates="constant"/>
         <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
         <Param name="syncScreenRefresh" val="True" valType="bool" updates="constant"/>
       </KeyboardComponent>
@@ -161,7 +161,7 @@
         <Param name="startVal" val="0.0" valType="code" updates="None"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="store" val="last key" valType="str" updates="constant"/>
+        <Param name="store" val="nothing" valType="str" updates="constant"/>
         <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
         <Param name="syncScreenRefresh" val="True" valType="bool" updates="constant"/>
       </KeyboardComponent>
@@ -192,8 +192,8 @@
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
       </TextComponent>
       <CodeComponent name="code_2">
-        <Param name="Before Experiment" val="timer_time = 3.5" valType="extendedCode" updates="constant"/>
-        <Param name="Before JS Experiment" val="timer_time = 3.5;&amp;#10;" valType="extendedCode" updates="constant"/>
+        <Param name="Before Experiment" val="timer_time =4" valType="extendedCode" updates="constant"/>
+        <Param name="Before JS Experiment" val="timer_time = 4;&amp;#10;" valType="extendedCode" updates="constant"/>
         <Param name="Begin Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Begin JS Experiment" val="" valType="extendedCode" updates="constant"/>
         <Param name="Begin JS Routine" val="" valType="extendedCode" updates="constant"/>

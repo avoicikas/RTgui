@@ -1,8 +1,8 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.10),
-    on Fri 18 Dec 2020 05:14:02 PM EET
+    on Tue 22 Dec 2020 09:32:25 AM EET
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -27,9 +27,8 @@ import os  # handy system and path functions
 import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
-from psychopy.hardware import emotiv
 
-timer_time = 3.5
+timer_time =4
 
 
 # Ensure that relative paths start from the same directory as this script
@@ -264,15 +263,6 @@ for thisComponent in instrComponents:
         thisComponent.setAutoDraw(False)
 thisExp.addData('instructions.started', instructions.tStartRefresh)
 thisExp.addData('instructions.stopped', instructions.tStopRefresh)
-# check responses
-if ready.keys in ['', [], None]:  # No response was made
-    ready.keys = None
-thisExp.addData('ready.keys',ready.keys)
-if ready.keys != None:  # we had a response
-    thisExp.addData('ready.rt', ready.rt)
-thisExp.addData('ready.started', ready.tStartRefresh)
-thisExp.addData('ready.stopped', ready.tStopRefresh)
-thisExp.nextEntry()
 # the Routine "instr" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
@@ -573,15 +563,6 @@ for thisComponent in instr2Components:
         thisComponent.setAutoDraw(False)
 thisExp.addData('break_text.started', break_text.tStartRefresh)
 thisExp.addData('break_text.stopped', break_text.tStopRefresh)
-# check responses
-if key_resp_break.keys in ['', [], None]:  # No response was made
-    key_resp_break.keys = None
-thisExp.addData('key_resp_break.keys',key_resp_break.keys)
-if key_resp_break.keys != None:  # we had a response
-    thisExp.addData('key_resp_break.rt', key_resp_break.rt)
-thisExp.addData('key_resp_break.started', key_resp_break.tStartRefresh)
-thisExp.addData('key_resp_break.stopped', key_resp_break.tStopRefresh)
-thisExp.nextEntry()
 # the Routine "instr2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
